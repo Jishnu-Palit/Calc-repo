@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GanitGo! - Accuracy At Your Fingertips</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1><img src="images/c_logo.png" alt="GanitGo!_logo">GanitGo!</h1>
+  <main class="calculator" aria-label="Calculator">
+    <section class="display">
+      <div class="expression" id="expression" aria-live="polite"></div>
+      <div class="result" id="result" aria-live="polite">0</div>
+    </section>
+
+    <section class="keys" role="group" aria-label="Calculator keys">
+      <button class="key fn" data-action="ac" aria-label="All clear">AC</button>
+      <button class="key fn" data-action="clear" aria-label="Clear entry">CE</button>
+      <button class="key fn" data-action="backspace" aria-label="Backspace">⌫</button>
+      <button class="key op" data-value="/" aria-label="Divide">÷</button>
+
+      <button class="key num" data-value="7">7</button>
+      <button class="key num" data-value="8">8</button>
+      <button class="key num" data-value="9">9</button>
+      <button class="key op" data-value="*" aria-label="Multiply">×</button>
+
+      <button class="key num" data-value="4">4</button>
+      <button class="key num" data-value="5">5</button>
+      <button class="key num" data-value="6">6</button>
+      <button class="key op" data-value="-" aria-label="Subtract">−</button>
+
+      <button class="key num" data-value="1">1</button>
+      <button class="key num" data-value="2">2</button>
+      <button class="key num" data-value="3">3</button>
+      <button class="key op" data-value="+" aria-label="Add">+</button>
+
+      <button class="key fn" data-action="negate" aria-label="Toggle sign">±</button>
+      <button class="key num" data-value="0">0</button>
+      <button class="key fn" data-action="dot" aria-label="Decimal point">.</button>
+      <button class="key op" data-value="%" aria-label="Percent">%</button>
+
+      <button class="key eq" data-action="equals" aria-label="Equals">=</button>
+    </section>
+  </main>
+  <br />
+  <br />
+  <footer class="brand">
+    <span>GanitGo! · Accurate · Reliable</span>
+    <p>&copy; 2025 GanitGo! | All Rights Reserved. |
+    <a href="https://www.google.co.in">Terms and Conditions</a> |
+    <a href="https://www.google.co.in">Privacy Policy</a>
+    <br />
+    <br />
+    Built with Passion by Jishnu Palit
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
